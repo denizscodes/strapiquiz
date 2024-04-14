@@ -1,0 +1,91 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 16px;
+}
+.detay {
+  background-color: rgb(16, 71, 252);
+  padding: 30px;
+  margin: 30px;
+  border-radius: 20px;
+}
+.flex-col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+  padding: 5px;
+}
+.duzen {
+  padding: 10px;
+  background-color: aliceblue;
+  color: black;
+  border-radius: 5px;
+}
+img {
+  border-radius: 10px;
+}
+
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Turdetayi.css */
+
+.progress-bar-container {
+  width: 80%; /* İlerleme çubuğunun genişliği */
+  height: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #007bff;
+  border-radius: 10px;
+}
+.quiz-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.question-container {
+  display: flex;
+  flex-direction: column;
+}
+.answer-btn {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: solid;
+  border-color: #1ca523;
+  width: 100px;
+}
